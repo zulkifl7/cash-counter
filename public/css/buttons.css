@@ -1,0 +1,97 @@
+.greenButton {
+
+    color: white;
+    background-color: rgb(112, 197, 90);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(112, 197, 90);
+    text-decoration: none;
+    font-size: 4vh;
+
+}
+.greenButton:hover {
+    animation: greenButtonAnimation 0.2s ease-in-out forwards;
+}
+
+@keyframes greenButtonAnimation {
+    0% {
+        background-color: rgb(141, 201, 125);
+        border: 2px solid rgb(112, 197, 90);
+
+
+    }
+    50% {
+        background-color: rgb(197, 218, 191);
+        border: 2px solid rgb(112, 197, 90);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(112, 197, 90);
+        color: rgb(112, 197, 90);
+    }
+}
+
+
+
+.blueButton {
+    color: white;
+    background-color: rgb(66, 168, 220);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(66, 168, 220);
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.blueButton:hover {
+    animation: blueButtonAnimation 0.2s ease-in-out forwards;
+}
+
+@keyframes blueButtonAnimation {
+    0% {
+        background-color: rgb(96, 188, 230);
+        border: 2px solid rgb(66, 168, 220);
+    }
+    50% {
+        background-color: rgb(156, 208, 240);
+        border: 2px solid rgb(66, 168, 220);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(66, 168, 220);
+        color: rgb(66, 168, 220);
+    }
+}
+
+
+.redButton {
+    color: white;
+    background-color: rgb(220, 81, 66);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(220, 81, 66);
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.redButton:hover {
+    animation: redButtonAnimation 0.2s ease-in-out forwards;
+}
+
+@keyframes redButtonAnimation {
+    0% {
+        background-color: rgb(240, 121, 106);
+        border: 2px solid rgb(220, 81, 66);
+    }
+    50% {
+        background-color: rgb(250, 161, 146);
+        border: 2px solid rgb(220, 81, 66);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(220, 81, 66);
+        color: rgb(220, 81, 66);
+    }
+}
+
+
